@@ -52,7 +52,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 18px;
-  gap: 24px;
+  gap: 60px;
   font-family: "Inter", sans-serif;
   color: #ffffff;
 }
@@ -222,7 +222,7 @@
 }
 
 .btn {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 513px;
   height: 640px;
 }
@@ -232,35 +232,35 @@
   height: 112px;
   border-radius: 120px;
   background-color: #eee9d9;
-  /* border-color: #eee9d9; */
+  border: #eee9d9;
 }
 .day2 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background-color: #8bb8c1cc;
-  border-color: #8bb8c1cc;
+  border: #8bb8c1cc;
 }
 .day3 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background-color: #aad8d7cc;
-  border-color: #aad8d7cc;
+  border: #aad8d7cc;
 }
 .day4 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background-color: #8bc0bdcc;
-  border-color: #8bc0bdcc;
+  border: #8bc0bdcc;
 }
 .day5 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background-color: #97cce0cc;
-  border-color: #97cce0cc;
+  border: #97cce0cc;
 }
 .place_name {
   font-family: "Inter";
@@ -284,11 +284,7 @@
   border-radius: 100%;
   margin-right: 15px;
 }
-.map {
-  border: 1px solid black;
-  width: 647px;
-  height: 640px;
-}
+
 .map1 {
   width: 34px;
   height: 34px;
@@ -316,4 +312,277 @@
   position: absolute;
   top: 700px;
   left: 800px;
+}
+.hover1{
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 342px;
+  left: 930px;
+}
+.hover2{
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 220px;
+  left: 745px;
+}
+.hover3{
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 375px;
+  left: 630px;
+}
+.hover4{
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+.hover5{
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 250px;
+  left: 800px;
+}
+.hover1, .hover2, .hover3, .hover4, .hover5 {
+  display: none;
+}
+.day1:hover + .hover1{
+  display: block;
+}
+.day2:hover + .hover2{
+  display: block;
+}
+.day3:hover + .hover3{
+  display: block;
+}
+.day4:hover + .hover4{
+  display: block;
+}
+.day5:hover + .hover5{
+  display: block;
+}
+.day1:hover{
+  border: 4px solid white;
+}   
+.day2:hover{
+  border: 4px solid white;
+}   
+.day3:hover{
+  border: 4px solid white;
+}   
+.day4:hover{
+  border: 4px solid white;
+}   
+.day5:hover{
+  border: 4px solid white;
+}   
+.section-4 {
+  background-image: url("./price.png");
+  background-size: cover;
+  background-position: center;
+  width: 1224px;
+  height: 1120px;
+  margin: 0 auto;
+}
+
+.header_1 {
+  /* border: 1px solid black; */
+  width: 1224px;
+  height: 204px;
+}
+.price_header {
+  font-family: "Inter";
+  font-size: 42px;
+  font-style: bold;
+  font-weight: 600;
+  color: #000000;
+}
+.price_header1 {
+  font-family: "Inter";
+  font-size: 20px;
+}
+.price_info {
+   /* border: 1px solid black; */
+  width: 1220px;
+  height: 527px;
+}
+.package {
+  border-radius: 40px;
+  /* border: 1px solid black; */
+  width: 384px;
+  height: 527px;
+  background-color: #fafbfc;
+}
+.package_header {
+  /* border: 1px solid black; */
+  width: 336px;
+  height: 92px;
+  gap: 10px;
+  
+}
+.package_header img {
+  height: 36px;
+  width: 36px;
+  
+
+ 
+}
+.package_hero {
+  /* border: 1px solid black; */
+  width: 384px;
+  height: 435px;
+}
+.hero_info{
+  /* border: 1px solid black; */
+  width: 336px;
+  height: 78px;
+
+}
+.hero_info h1{
+  font-family: "montserrat";
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 600;
+  color:#303030;
+}
+.hero_info p{
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color:#919191;
+}
+.package_list h2{
+  font-family: "inter";
+  font-size: 18px;
+  font-style: medium;
+  font-weight: 500;
+  color:#303030;
+  margin-bottom: 8px;
+  margin-left: 40px;
+}
+
+.package_list{
+  /* border: 1px solid black; */
+  width: 336px;
+  height: 180px;
+  font-family: "inter";
+  font-size: 14px;
+  font-style: medium;
+  font-weight: 500;
+  color:#303030;
+  margin-bottom: 8px;
+
+}
+.package_footer{
+  /* border: 1px solid black; */
+  width: 336px;
+  height: 48px;
+  margin-bottom: 48px;
+  border-radius: 40px;
+  background-color: #A4D1E2;
+  text-decoration: none;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: medium;
+  font-weight: 600;
+  font-style: bold;
+
+}
+
+.check_list img{
+  height: 20px;
+  width: 20px;
+  margin-top: 4.41px;
+  border-radius: 1px;
+  color: #0B151E;
+  font-style: bold;
+}
+.package_list p{
+  font-family: "inter";
+  font-size: 14px;
+  font-style: medium;
+  font-weight: 500;
+  color:#303030;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+.package:hover{
+  box-shadow: 8px 8px #4aa6c240,-8px -8px #010b1175;
+}
+.package:hover .package_footer{
+  background-color: black;
+  color: white;
+}
+.package_header img:hover{
+  filter: contrast(0.8)
+}
+.section4_footer{
+  /* border: 1px solid black; */
+  width: 1224px;
+  height: 204px;
+  margin-top: 185px;
+ }
+ .social{
+  /* border: 1px solid black; */
+  height:44px;
+  width:358px;
+ 
+ }
+ .facebook{
+  height:20px;
+  width:20px;
+  margin-left: 30px;
+ 
+ }
+ .instagram{
+  height:20px;
+  width: 20px;
+  margin-left: 30px
+ }
+ .facebook1{
+   height:44px;
+  width:167px;
+  background-color: #FAFBFC;
+  border-radius: 40px;
+  
+ }
+ .facebook1 p{
+  font-family: "montserrat";
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 700;
+  color:#6972B5;
+  margin-right:30px;
+
+ 
+ }
+
+
+ .instagram1{
+   height:44px;
+  width:171px;
+  background-color: #FAFBFC;
+    border-radius: 40px;
+   
+ 
+ }
+ .instagram1 p{
+  font-family: "montserrat";
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 700;
+  color:#6972B5;
+   margin-right:30px;
+    
+ }
+.tour{
+   height:35px;
+  width:101px;
+
 }
